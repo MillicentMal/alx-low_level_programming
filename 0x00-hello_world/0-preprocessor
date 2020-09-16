@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc -E > C$FILE c -o
+B#!/bin/bash
+gcc -E > C$FILE -o c 
