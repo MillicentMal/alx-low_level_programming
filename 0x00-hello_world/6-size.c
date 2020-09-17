@@ -12,9 +12,10 @@ char charType;
 /*
  *sizeof evaluates the size of a variable
  */
-printf("Size of int: %ld bytes\n", sizeof(intType));
-printf("Size of float: %ld bytes\n", sizeof(floatType));
-printf("Size of double: %ld bytes\n", sizeof(doubleType));
-printf("Size of char: %ld byte\n", sizeof(charType));
+printf("Size of int: %ld bytes\n", sizeof(int));
+printf("Size of float: %ld bytes\n", sizeof(float));
+printf("Size of long int: %ld bytes\n", sizeof(long int));
+printf("Size of char: %ld byte\n", sizeof(char));
+printf("Size of long long int: %ld bytes\n", sizeof(long long int));
 return (0);
 }
