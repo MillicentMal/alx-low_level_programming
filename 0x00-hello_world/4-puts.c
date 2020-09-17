@@ -3,11 +3,10 @@
 /**
 *main - Prints a string
 *
-*return: 0 (sUCCESSFUL)
+*Return:always 0 (sUCCESS)
 */
 
 int main(void)
-
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
