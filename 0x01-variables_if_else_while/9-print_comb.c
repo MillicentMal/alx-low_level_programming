@@ -6,19 +6,18 @@
 */
 int main(void)
 {
-int c;
-for
-(c = 48; c < 58; c++)
+int c = 48;
+
+while
+(c <= 58)
 {
 putchar(c);
-
+c++;
 if
 (c != 57)
-{
 putchar(',');
 putchar(' ');
 }
-}
 putchar('\n');
-return(0);
+return (0);
 }
