@@ -6,16 +6,13 @@
 */
 int main(void)
 {
-int c = 48;
-while
-(c <= 57)
+int c;
+for (c = 48; c < 58; c++)
 
 {
 putchar(c);
-c++;
 
-if
-(c != 57);
+if (c != 57)
 {
 putchar(',');
 putchar(' ');
