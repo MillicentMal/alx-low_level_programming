@@ -1,8 +1,7 @@
 #include <stdio.h>
-/*
-*main - prints numbers
-*
-*Return: 0 always (success)
+/**
+*main-Entry point.
+*Return:0-success, Non-zero, fail.
 */
 
 int main(void)
@@ -21,8 +20,7 @@ if (i == j)
 {
 continue;
 }
-
-if (i == '8' &&j == '9')
+if (i == '8' && j == '9')
 {
 break;
 }
