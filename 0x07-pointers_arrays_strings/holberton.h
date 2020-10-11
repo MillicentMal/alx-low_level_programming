@@ -21,7 +21,10 @@ char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 /*7-print_chessboard.c*/
 void print_chessboard(char (*a)[8]);
-
+/* 8-print_diagsums.c*/
+void print_diagsums(int *a, int size);
+/*9-set_string.c*/
+void set_string(char **s, char *to);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
