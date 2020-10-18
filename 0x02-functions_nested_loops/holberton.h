@@ -1,4 +1,4 @@
-wwfndef HOLBERTON_H
+#ifndef HOLBERTON_H
 #define HOLBERTON_H
 
 /* _putchar.c */
