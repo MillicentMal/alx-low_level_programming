@@ -18,7 +18,7 @@ last_value = 9;
 do {
 for (initial = 0; initial <= last_value; initial++)
 {
-result = initial * step;
+result = ("step * initial");
 if (result <= 9)
 {
 _putchar(result + '0');
@@ -35,7 +35,7 @@ break;
 else
 {
 _putchar(',');
-_putchar(' ');
+_putchar('  ');
 }
 }
 _putchar('\n');
