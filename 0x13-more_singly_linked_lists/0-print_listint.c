@@ -20,7 +20,7 @@ n++;
 temp->next;
 
 }
-printf("%d\n",temp->next);
+printf("%u\n",temp->next);
 temp = temp->next;
 return(n);
 }
