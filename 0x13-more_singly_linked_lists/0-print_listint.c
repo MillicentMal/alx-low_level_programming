@@ -6,22 +6,22 @@
 *print_listint - prints list of elements
 *@count: number of nodes 
 *Return: count
-*@n: integer 
+*@n: integer
+*@h: Pointer to the listint_t. 
 */
 size_t print_listint(const listint_t *h)
 {
-int n = 0;
+size_t count;
+count = 0; 
 
-unsigned int listint_t *temp = h;
 
-while (temp != NULL)
+while (h != NULL)
 {
-n++;
-temp->next;
 
+printf("%d\n",h->n);
+count++;
+h = h->next;
 }
-printf("%u\n",temp->next);
-temp = temp->next;
-return(n);
+return(count);
 }
 
