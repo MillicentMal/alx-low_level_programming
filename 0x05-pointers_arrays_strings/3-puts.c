@@ -11,7 +11,7 @@ int counter;
 for (counter = 0; str[counter] != '\0'; counter++)
 {
 
-_putchar(str);
+_putchar(str[counter]);
 }
 _putchar('\n');
 }
