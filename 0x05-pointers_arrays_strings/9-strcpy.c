@@ -15,7 +15,7 @@ len++;
 }
 for (count = 0; count <= len + 1; count++)
 {
-*dest = *src
+*(dest + count) = *(src + count);
 }
 return (dest);
 }
