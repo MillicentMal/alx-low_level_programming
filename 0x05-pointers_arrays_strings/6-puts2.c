@@ -1,16 +1,23 @@
 #include "holberton.h"
+
 /**
-*_puts -prints string to stdout
-*
-*@str: string to be checked
-*
+* puts2 - Prints every two character of string
+* @str:contains characters to be printed
 */
-void _puts(char *str)
+
+void puts2(char *str)
 {
-int counter;
-for (counter = 0; str[counter] != '\0'; counter += 2)
-{
-_putchar(str[counter]);
-}
+int index;
+int len;
+index = 0;
+len = 0;
+
+while (str[index++])
+len++;
+
+for (index = 0; index < len; index += 2)
+_putchar(str[index]);
+
 _putchar('\n');
+
 }
