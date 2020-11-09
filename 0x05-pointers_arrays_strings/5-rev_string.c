@@ -1,32 +1,21 @@
 #include "holberton.h"
-/**
-*_strlen - checks for and returns length of string
-*Return: length of string
-*@s: string to be checked
-*
-*/
-int _strlen(char *s)
-{
-int counter;
-for (counter = 0; s[counter] != '\0'; counter++)
-{
-}
-return (counter);
-}
 
 /**
-*rev_string - reverses string
-*@s: string to be reversed
+*rev_string - Cause a string to be reversed
+*@s: String to be reversed
 */
 void rev_string(char *s)
 {
-int counter = _strlen(s);
-int n = 0;
-char temp;
-while (n < counter / 2)
-temp *(s + n);
-*(s + n) = *(s + counter - 1 - n);
-*(s + counter - 1 - n) = temp;
-n++;
+int len = 0, index = 0;
+char m;
+
+while (s[index++])
+len++;
+for (index = len - 1; index >= len / 2; index--)
+{
+m = s[index];
+s[index] = s[len - index - 1];
+s[len - index - 1] = m;
 }
+
 }
