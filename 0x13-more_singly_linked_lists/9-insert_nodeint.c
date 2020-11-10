@@ -1,3 +1,4 @@
+
 #include "lists.h"
 
 /**
@@ -16,7 +17,7 @@ unsigned int i = 0;
 temp->n = n;
 temp->next = NULL;
 if (temp == NULL && idx > 0)
-}
+{
 free(temp);
 return (NULL);
 }
