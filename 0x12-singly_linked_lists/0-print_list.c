@@ -1,22 +1,21 @@
 #include "lists.h"
 /**
 *print_list - prints all elements in the list
+*@h: pointer to list_t
 *Return: returns number of nodes
 *
 */
-typedef int = size_t
 size_t print_list(const list_t *h)
 {
-size_t = 0;
+size_t count = 0;
 if h == NULL
 printf("nil")
-ptr = h
-while (ptr != h)
+
+while (h)
 {
-size_t++;
-ptr-> data
-printf("%d", data);
-ptr= ptr -> link;
+count++;
+h->next;
+printf("%d", next);
 }
-return(size_t);
+return (count);
 }
