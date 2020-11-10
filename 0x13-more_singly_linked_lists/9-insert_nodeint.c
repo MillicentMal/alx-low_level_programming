@@ -1,4 +1,3 @@
-
 #include "lists.h"
 
 /**
@@ -46,5 +45,6 @@ temp->next = navigate->next;
 navigate->next = temp;
 return (temp);
 }
+free(temp);
 }
 
