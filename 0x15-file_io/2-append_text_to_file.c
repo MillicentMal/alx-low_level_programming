@@ -1,33 +1,49 @@
 #include "holberton.h"
-
 /**
- *append_text_to_file - Appends text at the end of a file.
- *@filename: Name of the file.
- *@text_content: NULL terminated string to add at the end of the file.
- *
- *Return: On success 1.
- *        On failure -1.
+ * append_text_to_file - appends text at the end of  file.
+ * @filename: name of the file
+ * @text_content: NULL terminated string to add at the end of the file
+ * Return: 1 on success and -1 on failure
  */
+
 int append_text_to_file(const char *filename, char *text_content)
 {
-int fd_write, fd_open, length = 0;
-
-if (filename == NULL)
-return (-1);
-
-if (text_content != NULL)
+int fd, fd_write;
+if (text_content == NULL)
 {
-while (text_content[length])
-length++;
-}
-fd_open = open(filename, O_WRONLY | O_APPEND);
-fd_write = write(fd_open, text_content, length);
-
-if (fd_open == -1 || f_w == -1)
-return (-1);
-
-close(fd_open);
-
 return (1);
 }
+if (filename == NULL)
+{
+return (-1);
+}
+fd = open(filename, O_WRONLY | O_APPEND);
+if (fd == -1)
+{
+return (-1);
+}
+fd_write = write(fd, text_content, _strlen(text_content));
+if (fd_write == -1)
+{
+return (-1);
+}
+close(fd);
+return (1);
+}
+/**
+ *_strlen-Finds the length of a string.
+ *@s:String pointer to the string whose length is to be found.
+ *
+ *Return: returns the length of the string.
+ */
 
+int _strlen(char *s)
+{
+int p = 0;
+
+while (*(s + p) != 0)
+{
+p++;
+}
+return (p);
+}
