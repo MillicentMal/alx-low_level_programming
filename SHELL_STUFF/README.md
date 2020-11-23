@@ -49,7 +49,7 @@ The format was adapted from past Holberton cohort, specifically from [Nickolas T
 
       1. [Neso Academy](https://www.youtube.com/watch?v=IFEFVXvjiHY)
       2. [Engineer Man](https://www.youtube.com/channel/UCrUL8K81R4VBzm-KOYwrcxQ)
-      3. [GOOGLE](https://www.google.com/) :wink
+      3. [GOOGLE](https://www.google.com/) :wink:
 
 ## NB: _This is the original work of David Mutune and Millicent Malinga._
 
