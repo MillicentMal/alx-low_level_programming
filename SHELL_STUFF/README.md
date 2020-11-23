@@ -35,9 +35,9 @@ file 2      |descritpion for file2
 ##
 **AUTHORS**
 #####
-**_DAVID MUTUNE](https://github.com/kimengu-david)_**
+[DAVID MUTUNE](https://github.com/kimengu-david)
 #####
-**_MILLICENT MALINGA](https://github.com/MillicentMal)_**
+**[MILLICENT MALINGA](https://github.com/MillicentMal)_**
 
 
 
