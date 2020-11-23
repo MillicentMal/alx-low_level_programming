@@ -32,9 +32,9 @@ file 2      |descritpion for file2
 # **AUTHORS**
 ######
 
-***[David Mutune](https://github.com/kimengu-david)**
+1. **[David Mutune](https://github.com/kimengu-david)**
 
-***[Millicent Malinga](https://github.com/MillicentMal)**
+2. **[Millicent Malinga](https://github.com/MillicentMal)**
 
 
 
