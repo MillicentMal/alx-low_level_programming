@@ -32,7 +32,10 @@ file 2      |descritpion for file2
 6           |6
 7           | 7
 
-
+##
+**AUTHORS**
+_DAVID MUTUNE](https://github.com/kimengu-david)_
+_MILLICENT MALINGA](https://github.com/MillicentMal)_
 
 
 
