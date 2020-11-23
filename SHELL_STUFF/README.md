@@ -43,13 +43,12 @@ The following list contains links to the different sources we used to comprehend
 ## 1. README.md
  
 The format was adapted from past Holberton cohort, specifically from [Nickolas Texiera](https://medium.com/@nickolasteixeira?source=post_page-----75890647bae8--------------------------------)
-[Mastering Markdown](https://guides.github.com/features/mastering-markdown/#examples)
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/#examples)
 
-## 2. Simple Shell Concepts :exploding_head:
-
-      1. [Neso Academy](https://www.youtube.com/watch?v=IFEFVXvjiHY)
-      2. [Engineer Man](https://www.youtube.com/channel/UCrUL8K81R4VBzm-KOYwrcxQ)
-      3. [GOOGLE](https://www.google.com/) :wink:
+## 2.Simple Shell Concepts :exploding_head:
+1. [Neso Academy](https://www.youtube.com/watch?v=IFEFVXvjiHY)
+2. [Engineer Man](https://www.youtube.com/channel/UCrUL8K81R4VBzm-KOYwrcxQ)
+3. [GOOGLE](https://www.google.com/) :wink:
 
 ## NB: _This is the original work of David Mutune and Millicent Malinga._
 
