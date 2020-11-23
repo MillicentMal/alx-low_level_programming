@@ -14,7 +14,7 @@ This was created for an end of term project hence we were following a set of gui
 Our project was built on Ubuntu via Vagrant in VirtualBox. This was set up as a requirement of the entire so that every student has their projects running on the same environment. 
 As of now, we have not attempted to run the shell on any other environment.
 
-# **CONTENTS**
+# **Contents**
 
 ######
 The following files are in this repository and all contribute to the simple shell.
@@ -32,10 +32,25 @@ file 2      |descritpion for file2
 # **AUTHORS**
 ######
 
-1. **[David Mutune](https://github.com/kimengu-david)**
+1. **[David Mutune](https://github.com/kimengu-david)** davidmutune200@gmail.com
 
-2. **[Millicent Malinga](https://github.com/MillicentMal)**
+2. **[Millicent Malinga](https://github.com/MillicentMal)** millicentmalinga19@gmail.com
 
+# **SOURCES**
+######
+The following list contains links to the different sources we used to comprehend the concepts. These were used in conjuction with the resources shared by ALX-Holberton.
 
+## 1. README.md
+ 
+The format was adapted from past Holberton cohort, specifically from [Nickolas Texiera](https://medium.com/@nickolasteixeira?source=post_page-----75890647bae8--------------------------------)
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/#examples)
+
+## 2. Simple Shell Concepts :exploding_head:
+
+      1. [Neso Academy](https://www.youtube.com/watch?v=IFEFVXvjiHY)
+      2. [Engineer Man](https://www.youtube.com/channel/UCrUL8K81R4VBzm-KOYwrcxQ)
+      3. [GOOGLE](https://www.google.com/) :wink
+
+## NB: _This is the original work of David Mutune and Millicent Malinga._
 
 
