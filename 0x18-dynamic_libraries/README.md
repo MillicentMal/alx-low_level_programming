@@ -1,0 +1,1 @@
+This directory contains a dynamic library created from all the functions used in C. Some of them might just be empty.This directory contains a dynamic library created from all the functions used in C. Some of them might just be empty.
