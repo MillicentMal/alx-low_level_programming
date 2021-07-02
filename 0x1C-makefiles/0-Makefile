@@ -1,0 +1,4 @@
+#make file - for compiling holberton
+ 
+all:    holberton
+    gcc *.c -o holberton
