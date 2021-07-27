@@ -1,4 +1,4 @@
 #make file - for compiling holberton
  
-all:
-	gcc  -o holberton
+all: holberton.c main.c m.h
+	gcc main.c holberton.c -o holberton
