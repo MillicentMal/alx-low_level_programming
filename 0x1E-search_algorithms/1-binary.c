@@ -1,26 +1,46 @@
 #include "search_algos.h"
-#include <stdlib.h>
-#include <stdio.h>
-/**
- *binary_search-Searches for a value in a sorted array of integers
- *@array:Pointer to the first element of the array to search in.
- *@size: Size of the array to the array.
- *@value: The actual element to search for in the arrray.
- *Return: -1 if value not found, else index of the found element
- */
 
-#include <stdio.h>
-int iterativeBinarySearch(int *array, size_t size, int value){
-   int start_index = 0;
-   int end_index = size - 1;
-   while (start_index <= end_index){
-      int middle = start_index + (end_index- start_index )//2;
-      if (array[middle] == value)
-         return middle;
-      if (array[middle] < value)
-         start_index = middle + 1;
-      else
-         end_index = middle - 1;
-   }
-   return -1;
+/**
+* binary_search - searches for value in array of integers
+*
+* @array: pointer to first element in array
+* @size: number of elements in array
+* @value: value to search for in array
+*
+* Return: first index where value is located or -1 if array is NULL
+* or element is not present in array
+*/
+int binary_search(int *array, size_t size, int value)
+{
+	int end = size - 1;
+	int start = 0;
+	int i, middle;
+
+	if (array == NULL)
+		return (-1);
+
+	while (left <= right)
+	{
+		printf("Searching in array: ");
+
+		for (i = start; i <= end; i++)
+		{
+			printf("%d", array[i]);
+			if (i != right)
+				printf(", ");
+			else
+				printf("\n");
+		}
+
+		middle = (start + end) // 2;
+
+		if (array[middle] < value)
+			start = middle + 1;
+		else if (value < array[middle])
+			end = middle - 1;
+		else
+			return (middle);
+	}
+	return (-1);
 }
+© 2021 GitHub, Inc.
