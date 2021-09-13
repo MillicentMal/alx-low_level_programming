@@ -6,9 +6,9 @@ int start_index = 0;
 int end_index = size;
    while (start_index <= end_index){
       int middle = start_index + (end_index- start_index )/2;
-      if (array[middle] == element)
+      if (array[middle] == value)
          return middle;
-      if (array[middle] < element)
+      if (array[middle] < value)
          start_index = middle + 1;
       else
          end_index = middle - 1;
