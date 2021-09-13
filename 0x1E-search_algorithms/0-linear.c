@@ -2,6 +2,7 @@
 #include <stdlib.h>
 /**
 *linear_search - does a linear search on an array of size size
+*@array: pointer to the first element in the array
 *@size: the number of elements in array
 *@value: the value to search for
 *Return: index
