@@ -16,7 +16,7 @@ if (array[i] == value)
 {
 return(i);
 }
-elif ((array[i] != value) || (array == NULL)) 
+else if ((array[i] != value) || (array == NULL)) 
 {
 return(-1);
 }
