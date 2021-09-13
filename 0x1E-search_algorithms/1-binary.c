@@ -10,9 +10,11 @@
  */
 
 #include <stdio.h>
-int iterativeBinarySearch(int array[], int start_index, int end_index, int value){
+int iterativeBinarySearch(int *array, size_t size, int value){
+   int start_index = 0;
+   int end_index = size - 1;
    while (start_index <= end_index){
-      int middle = start_index + (end_index- start_index )/2;
+      int middle = start_index + (end_index- start_index )//2;
       if (array[middle] == value)
          return middle;
       if (array[middle] < value)
