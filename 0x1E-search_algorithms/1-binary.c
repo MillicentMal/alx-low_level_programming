@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "search_algos.h"
 int binary_search(int *array, size_t size, int value){
 int start_index = 0;
 int end_index = size;
