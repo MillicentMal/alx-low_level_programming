@@ -10,12 +10,13 @@
 int linear_search(int *array, size_t size, int value)
 {
 int i = 0;
-for (i = 0; i < size; i++) {
+int j = size
+for (i = 0; i < j; i++) {
 if (array[i] == value) 
 {
 return(i);
 }
-elif (array[i] != value || *array == NULL)
+elif ((array[i] != value) || (array == NULL)) 
 {
 return(-1);
 }
